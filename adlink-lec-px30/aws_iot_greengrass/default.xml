@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <default sync-j="4" />
+  
+  <remote name="oe"
+          fetch="git://git.openembedded.org" />
+  <remote name="yp"
+          fetch="git://git.yoctoproject.org" />
+  <remote name="rockchip"
+          fetch="git://github.com/ADLINK-EPM/meta-rockchip.git" />
+  <remote name="adlink-rockchip"
+          fetch="git://github.com/adlink/meta-adlink-rockchip.git" />
+  <remote name="adlink-sema"
+          fetch="git://github.com/adlink/meta-adlink-sema.git" />
+  <remote name="browser"
+          fetch="https://github.com/OSSystems/meta-browser.git" />
+  <remote name="clang"
+          fetch="git://github.com/kraj/meta-clang" />
+  <remote name="rust"
+          fetch="git://github.com/meta-rust/meta-rust" />
+  <remote name="aws"
+          fetch="git://github.com/aws" />
+
+  <project remote="yp"
+           revision="zeus"
+           name="poky"
+           path="poky" />
+
+  <project remote="oe"
+	   revision="zeus"
+           name="meta-openembedded"
+           path="meta-openembedded" />
+
+  <project remote="adlink-rockchip"
+	   revision="zeus"
+           name="meta-adlink-rockchip"
+           path="meta-adlink-rockchip" />
+
+  <project remote="adlink-sema"
+	   revision="zeus"
+           name="meta-adlink-sema"
+           path="meta-adlink-sema" />
+
+  <project remote="browser"
+	   revision="zeus"
+           name="meta-browser"
+           path="meta-browser" />
+
+  <project remote="clang"
+	   revision="zeus"
+           name="meta-clang"
+           path="meta-clang" />
+
+  <project remote="rust"
+	   revision="zeus"
+           name="meta-rust"
+           path="meta-rust" />
+
+  <project remote="aws"
+           revision="zeus"
+           name="meta-aws"
+           path="meta-aws" />
+</manifest>
