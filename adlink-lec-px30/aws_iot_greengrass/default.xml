@@ -20,22 +20,22 @@
           fetch="git://github.com/aws" />
 
   <project remote="yp"
-           revision="zeus"
+           revision="f9ef210967ab34168d4a24930987dc0731baf56f"
            name="poky"
            path="poky" />
 
   <project remote="oe"
-	   revision="zeus"
+	   revision="bb65c27a772723dfe2c15b5e1b27bcc1a1ed884c"
            name="meta-openembedded"
            path="meta-openembedded" />
 
   <project remote="adlink-epm"
-	   revision="zeus"
+	   revision="8f7727fb24e40ad193373f2ec57a2612799a834b"
            name="meta-rockchip"
            path="meta-rockchip" />
 
   <project remote="adlink"
-	   revision="zeus"
+	   revision="441b5f001a7d1716282e80d8f64309708e51f02a"
            name="meta-adlink-rockchip"
            path="meta-adlink-rockchip" />
 
@@ -45,12 +45,12 @@
            path="meta-adlink-sema" />
 
   <project remote="OSSystems"
-	   revision="zeus"
+	   revision="830ef438e81ba5fc915b1855e69f02b2c286b21a"
            name="meta-browser"
            path="meta-browser" />
 
   <project remote="kraj"
-	   revision="zeus"
+	   revision="81ba160c95b12b2922f99b60bef25ab37a5e2f0e"
            name="meta-clang"
            path="meta-clang" />
 
