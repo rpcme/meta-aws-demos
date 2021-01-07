@@ -6,18 +6,16 @@
           fetch="git://git.openembedded.org" />
   <remote name="yp"
           fetch="git://git.yoctoproject.org" />
-  <remote name="rockchip"
+  <remote name="adlink-epm"
           fetch="git://github.com/ADLINK-EPM/meta-rockchip.git" />
-  <remote name="adlink-rockchip"
-          fetch="git://github.com/adlink/meta-adlink-rockchip.git" />
-  <remote name="adlink-sema"
-          fetch="git://github.com/adlink/meta-adlink-sema.git" />
-  <remote name="browser"
-          fetch="https://github.com/OSSystems/meta-browser.git" />
+  <remote name="adlink"
+          fetch="git://github.com/adlink" />
+  <remote name="OSSystems"
+          fetch="https://github.com/OSSystems" />
   <remote name="clang"
-          fetch="git://github.com/kraj/meta-clang" />
-  <remote name="rust"
-          fetch="git://github.com/meta-rust/meta-rust" />
+          fetch="git://github.com/kraj" />
+  <remote name="meta-rust"
+          fetch="git://github.com/meta-rust" />
   <remote name="aws"
           fetch="git://github.com/aws" />
 
@@ -31,27 +29,32 @@
            name="meta-openembedded"
            path="meta-openembedded" />
 
-  <project remote="adlink-rockchip"
+  <project remote="adlink-epm"
+	   revision="zeus"
+           name="meta-rockchip"
+           path="meta-rockchip" />
+
+  <project remote="adlink"
 	   revision="zeus"
            name="meta-adlink-rockchip"
            path="meta-adlink-rockchip" />
 
-  <project remote="adlink-sema"
+  <project remote="adlink"
 	   revision="zeus"
            name="meta-adlink-sema"
            path="meta-adlink-sema" />
 
-  <project remote="browser"
+  <project remote="OSSystems"
 	   revision="zeus"
            name="meta-browser"
            path="meta-browser" />
 
-  <project remote="clang"
+  <project remote="kraj"
 	   revision="zeus"
            name="meta-clang"
            path="meta-clang" />
 
-  <project remote="rust"
+  <project remote="meta-rust"
 	   revision="zeus"
            name="meta-rust"
            path="meta-rust" />
