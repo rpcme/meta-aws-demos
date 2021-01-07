@@ -40,7 +40,7 @@
            path="meta-adlink-rockchip" />
 
   <project remote="adlink"
-	   revision="zeus"
+	   revision="2151d926328742ff577afd055f15be0a6397a644"
            name="meta-adlink-sema"
            path="meta-adlink-sema" />
 
@@ -55,7 +55,7 @@
            path="meta-clang" />
 
   <project remote="meta-rust"
-	   revision="zeus"
+	   revision="a012a1027defe28495f06ed522a7a82bdd59a610"
            name="meta-rust"
            path="meta-rust" />
 
