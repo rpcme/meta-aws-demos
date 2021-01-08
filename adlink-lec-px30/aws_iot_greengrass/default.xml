@@ -20,12 +20,14 @@
           fetch="git://github.com/aws" />
 
   <project remote="yp"
+           dest-branch="zeus"
            revision="f9ef210967ab34168d4a24930987dc0731baf56f"
            name="poky"
            path="poky" />
 
   <project remote="oe"
 	   revision="bb65c27a772723dfe2c15b5e1b27bcc1a1ed884c"
+           dest-branch="zeus"
            name="meta-openembedded"
            path="meta-openembedded" />
 
@@ -41,26 +43,31 @@
 
   <project remote="adlink"
 	   revision="2151d926328742ff577afd055f15be0a6397a644"
+           dest-branch="sema4.0"
            name="meta-adlink-sema"
            path="meta-adlink-sema" />
 
   <project remote="OSSystems"
 	   revision="830ef438e81ba5fc915b1855e69f02b2c286b21a"
+           dest-branch="zeus"
            name="meta-browser"
            path="meta-browser" />
 
   <project remote="kraj"
 	   revision="81ba160c95b12b2922f99b60bef25ab37a5e2f0e"
+           dest-branch="zeus"
            name="meta-clang"
            path="meta-clang" />
 
   <project remote="meta-rust"
 	   revision="a012a1027defe28495f06ed522a7a82bdd59a610"
+           dest-branch="master"
            name="meta-rust"
            path="meta-rust" />
 
   <project remote="aws"
            revision="zeus"
+           dest-branch="zeus"
            name="meta-aws"
            path="meta-aws" />
 </manifest>
