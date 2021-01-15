@@ -10,12 +10,6 @@
           fetch="git://github.com/ADLINK-EPM" />
   <remote name="adlink"
           fetch="git://github.com/adlink" />
-  <remote name="OSSystems"
-          fetch="https://github.com/OSSystems" />
-  <remote name="kraj"
-          fetch="git://github.com/kraj" />
-  <remote name="meta-rust"
-          fetch="git://github.com/meta-rust" />
   <remote name="aws"
           fetch="git://github.com/aws" />
 
@@ -31,13 +25,19 @@
            name="meta-openembedded"
            path="meta-openembedded" />
 
+  <project remote="oe"
+	   revision="bb65c27a772723dfe2c15b5e1b27bcc1a1ed884c"
+           dest-branch="zeus"
+           name="meta-python2"
+           path="meta-python2" />
+
   <project remote="adlink-epm"
-	   revision="8f7727fb24e40ad193373f2ec57a2612799a834b"
+	   revision="d571e890e0f7ed28fa5a6f72cfe42eaca31352fb"
            name="meta-rockchip"
            path="meta-rockchip" />
 
   <project remote="adlink"
-	   revision="441b5f001a7d1716282e80d8f64309708e51f02a"
+	   revision="f9a4835809e39e58b7184d4a95e7f204fb2eb88e"
            name="meta-adlink-rockchip"
            path="meta-adlink-rockchip" />
 
@@ -46,24 +46,6 @@
            dest-branch="sema4.0"
            name="meta-adlink-sema"
            path="meta-adlink-sema" />
-
-  <project remote="OSSystems"
-	   revision="830ef438e81ba5fc915b1855e69f02b2c286b21a"
-           dest-branch="zeus"
-           name="meta-browser"
-           path="meta-browser" />
-
-  <project remote="kraj"
-	   revision="81ba160c95b12b2922f99b60bef25ab37a5e2f0e"
-           dest-branch="zeus"
-           name="meta-clang"
-           path="meta-clang" />
-
-  <project remote="meta-rust"
-	   revision="a012a1027defe28495f06ed522a7a82bdd59a610"
-           dest-branch="master"
-           name="meta-rust"
-           path="meta-rust" />
 
   <project remote="aws"
            revision="zeus"
